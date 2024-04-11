@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Handlee&family=Montserrat&family=Poppins:wght@400;500&family=Ubuntu&display=swap');
+
+.container{
+    width: 100%;
+    padding-bottom: 2rem;
+    height: max-content;
+    /* background: url('/images/image1.jpg') center/cover ; */
+    font-family: Montserrat ;
+    /* backdrop-filter: blur(45px); */    
+    background-color: #313856;
+}
+
+.container-form{
+    width:49%;
+    height:fit-content;
+    padding-bottom: 2rem;
+    /* backdrop-filter: blur(17px); */
+    margin: 0 auto; 
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    
+}
+
+.container-h1{
+    font-size: 2.4rem;
+    /* color: #b46060; */
+    color:  rgb(7, 70, 7);
+    font-weight: bolder;
+    text-shadow: 2px 2px black;
+    font-family: handlee ;
+}
+
+form label{
+    width: 90%;
+    color: white;
+
+    
+}
+
+form input{
+    width: 95%;
+    height: 30px;
+    background: transparent;
+    outline: none;
+    border: 0;
+    border-bottom: 1px solid white;
+    font-size: 1.3rem;
+    color:white;
+}
+
+form input::placeholder{
+  
+    font-size: 1.1rem;
+}
+
+textarea:focus, form input:focus{
+    /* color: white; */
+    /* color:#e19898; */
+    font-size: 1.5rem;
+}
+
+.container-btns{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: Montserrat ;
+}
+
+.container-btn{
+    margin-top: 1rem;
+    padding: 8px 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    background: transparent;
+    text-decoration: none;
+    /* background-color: rgb(7, 70, 7); */
+    border:none;
+    outline:none;
+    box-shadow: 2px 2px 1px 1px black;
+    color:white;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    margin-left: 20px;
+    margin-right: 20px;;
+}
+
+.container-btn:hover{
+    color:rgb(7, 70, 7);
+    background-color: white;
+}
+
+.container-space{
+    padding: 10px 0;
+}
+
+form label p{
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin: 15px 0;
+    /* color:black;
+    text-shadow: 1.5px 1px rgb(170, 24, 24); */
+    /* color:rgb(255, 75, 75); */
+    color: rgb(11, 139, 18);
+    text-shadow: 1.5px 1px rgb(170, 158, 158);
+    letter-spacing: 1.5px;
+}
